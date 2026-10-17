@@ -1,11 +1,14 @@
-# homebrew-ntakker-studio
+# homebrew-ntakker
 
-Homebrew tap for **ntakker studio**, the companion app to ntakker for studying finished recordings: transcripts that follow playback, click-to-jump, cuts with re-timed transcripts, speaker names, re-transcription, search, Q&A and meeting minutes.
+Homebrew tap for the ntakker apps — record, transcribe and study meetings on macOS.
 
 ```sh
-brew install --cask biks2013-tools/ntakker-studio/ntakker-studio
+brew tap biks2013-tools/ntakker
+brew install --cask ntakker          # menu-bar recorder: system audio + microphone, live transcription
+brew install --cask ntakker-studio   # study finished recordings: transcripts, cuts, Q&A, minutes
+brew install --cask ntakker-cli      # the same recorder from the terminal
 ```
 
-Developer ID signed and notarized. Requires macOS 26 (Tahoe) or later on Apple Silicon.
+All three are Developer ID signed and notarized. Requires macOS 26 (Tahoe) or later on Apple Silicon.
 
 Source, releases and docs: https://github.com/biks2013-tools/ntakker
